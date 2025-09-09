@@ -6,7 +6,7 @@ RUN npm ci --only=production
 
 COPY . .
 
-ENV PORT=3000
+ENV PORT=80
 EXPOSE $PORT
 
 ENV NODE_ENV=production
